@@ -1,0 +1,50 @@
+:root {
+    --primary-color: teal;
+    --primary-text-color: white;
+    --secondary-text-color: #b8b8b8;
+    --icon-hover-color: #292929;
+    --btn-hover-color: #353535;
+    --sidebar-color: #202020;
+    --container-color: #272727;
+    --search-bar-dark: #393939;
+    --search-bar--focus-dark: #212121;
+    --user-card-focus: #4d4d4d;
+    --user-card-hover: #343434;
+}
+
+/*LightT Gray: 9d9d9d*/
+/*DarkT Gray: 7a7a7a*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--sidebar-color);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 380px 1fr;
+}
+
+.sidebar {
+    background-color: var(--sidebar-color);
+    border-right: 1px solid #1c1c1c;
+}
+
+.users-container {
+    background-color: var(--container-color);
+    border-right: 1px solid #1c1c1c;
+}
+
+.chat-container {
+    background-color: var(--container-color);
+}
