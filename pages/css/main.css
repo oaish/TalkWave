@@ -49,3 +49,19 @@ main {
 .chat-container {
     background-color: var(--container-color);
 }
+
+::-webkit-scrollbar {
+    width: 3px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9f9f9f; /* Customize the thumb color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #9f9f9f; /* Customize the thumb color on hover */
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Customize the track color */
+}
